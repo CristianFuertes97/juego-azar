@@ -15,13 +15,13 @@
                     <p class="texto__parrafo"></p>
                 </div>
                 <div>
-                <input type="number" id="valorRango" min="1" max="10" class="container__input_rango" placeholder="Rango (1 al...)">
-                <button class="container__botonok" type="button" onclick="secreto()"> OK</button>   
-                <input type="number" id="valorUsuario" min="1" max="10" class="container__input" placeholder="Ingrese un número entre el rango">
+                    <input type="number" id="valorRango" min="1" max="10" class="container__input_rango" placeholder="Rango (1 al...)">
+                    <button class="container__botonok" type="button" onclick="secreto()" id="valorok"> OK</button>   
+                    <input type="number" id="valorUsuario" min="1" max="10" class="container__input" placeholder="Ingrese un número entre el rango">
                 </div>
                 <div class="container__botones">
-                    <button  class="container__boton" onclick="verificaIntento()">Verificar</button>
-                    <button  class="container__boton" onclick="checkGuess()">Nuevo Juego</button>
+                    <button  class="container__boton" onclick="verificaIntento();">Verificar</button>
+                    <button  class="container__boton" onclick="reiniciarJuego();" id="nuevo" disabled>Nuevo Juego</button>
                 </div>
             </div>
             <img src="assets/ia.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />        
