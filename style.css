@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: linear-gradient(#08cc8b 0%, #03a194 33.33%, #02488a 66.67%, #04002c 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body::before {
+    background-image: url(assets/code.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.container {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 5px solid #b0f7e7;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-image: url("assets/Ruido.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+.container__contenido {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.container__informaciones {
+    flex: auto;
+    padding: 2.5rem;
+}
+
+.container__boton {
+    border-radius: 8px;
+    background: none;
+    padding: 11px 1px;
+    width: 11rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: 2.5px solid #2eebd1;
+    margin-top: 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+.container__botonok{
+    border-radius: 8px;
+    background: none;
+    padding: 11px 1px;
+    width: 5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: 2.5px solid #2eebd1;
+    margin-top: 2rem;
+    text-align: center;
+}
+.container__boton:hover{
+    background-color: #02649c;
+}
+
+.container__botonok:hover{
+    background-color: #45cfe7;
+}
+
+.container__boton:disabled {
+    background: #898989;
+}
+
+.container__texto {
+    margin: 16px 0 16px 0;
+    
+
+}
+
+.container__input {
+    width: 100%;
+    height: 72px;
+    border-radius: 16px;
+    background-color: #e2f7f2;
+    border: none;
+    color: #03244d;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Playwrite GB S", cursive;
+    margin-top: 1rem;
+}
+
+.container__input_rango{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #a2fde8;
+    color: #03244d;
+    padding: 1rem;
+    font-size: 16px;
+    font-family: "Playwrite GB S", cursive;
+    margin-top: 1rem;
+    font-weight: 700;
+    
+}
+.container__botones {
+    display: flex;
+    gap: 2em;
+}
+
+h1 {
+    font-family: "Playwrite GB S", cursive;
+    font-size: 40px;
+    padding-bottom: 3rem;
+    text-align: left;
+}
+
+p,
+a {
+    font-family: "Roboto Slab", serif;
+    
+}
+
+.texto__parrafo {
+    font-size: 24px;
+    font-weight: 500;
+}
+
