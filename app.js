@@ -28,6 +28,6 @@ function verificaIntento() {
             mensaje('p','Sigue intentando. El número es mayor al ingresado');
         }
         intentos++;
-        console.log(intentos);
+        // sdsada
     }
 }
